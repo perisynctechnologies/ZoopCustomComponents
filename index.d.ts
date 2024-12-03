@@ -5,6 +5,4 @@ export interface LoadingScreenProps {
   // If there are no props for now, keep it as an empty interface
 }
 
-declare const LoadingScreen: React.FC<LoadingScreenProps>;
-
-export default LoadingScreen;
+export const LoadingScreen: React.FC<LoadingScreenProps>;

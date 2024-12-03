@@ -3,7 +3,7 @@
 # React JS
 
 **To install the library use this commend**
-s
+
 "npm install git+https://github.com/perisynctechnologies/ZoopCustomComponents.git"
 
 **Install a Specific Branch,**
