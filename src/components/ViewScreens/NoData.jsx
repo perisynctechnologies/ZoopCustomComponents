@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import { Button, SvgIcon, Typography } from "@mui/material";
 import PlusIcon from "@untitled-ui/icons-react/build/esm/Plus";
 // import { NoDataSvg } from "../../assets/ImageConstant";
-import { NoDataSvg } from "../../assets/images/errors/no-data.svg";
+import NoDataSvg from "../../assets/images/errors/no-data.svg";
 
 export const NoData = ({ title, description, bool, button, action }) => {
   return (
