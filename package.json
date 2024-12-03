@@ -4,11 +4,16 @@
   "description": "React project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "public": "npm publish --access public"
   },
   "peerDependencies": {
     "react": "18.2.0"
   },
   "author": "Yasser",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "index.js",
+    "src/"
+  ]
 }

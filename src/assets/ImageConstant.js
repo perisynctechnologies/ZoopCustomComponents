@@ -1,0 +1,1 @@
+export const errorIcon = require("./images/serverError.png")
