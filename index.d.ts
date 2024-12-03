@@ -55,7 +55,30 @@ export interface ConfirmationModalProps {
     | "xxl" /*** Size of the modal (e.g., "xs", "sm", "md", "lg", "xl").*/;
 }
 
+export interface CustomTagsCompProps {
+  /**
+   * Local state object containing the tags and temporary tag input.
+   */
+  localState: {
+    tags: string[]; // Array of existing tags
+    temptag: string; // Temporary input for a new tag
+  };
+
+  /**
+   * Function to update the local state.
+   * @param state - The updated state object
+   */
+  setLocalState: (state: { tags: string[]; temptag: string }) => void;
+
+  /**
+   * Function to set an update flag.
+   * @param update - Boolean flag indicating an update
+   */
+  setUpdate: (update: boolean) => void;
+}
+
 // Export the component with the correct type definition
 export declare const LoadingScreen: React.FC<LoadingScreenProps>;
 export declare const NoData: React.FC<NoDataProps>;
 export declare const ConfirmationModal: React.FC<ConfirmationModalProps>;
+export declare const CustomTagsComp: React.FC<CustomTagsCompProps>;
