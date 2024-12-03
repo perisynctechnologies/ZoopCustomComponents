@@ -2,7 +2,8 @@ import React from "react";
 
 export interface LoadingScreenProps {
   // Define any props your component may accept here
-  // If there are no props for now, keep it as an empty interface
+  // Add specific prop definitions or leave it empty for now
 }
 
-export const LoadingScreen: React.FC<LoadingScreenProps>;
+// Export the component with the correct type definition
+export declare const LoadingScreen: React.FC<LoadingScreenProps>;

@@ -1,4 +1,5 @@
-import {LoadingScreen} from "./src/components/Loading/LoadingScreen"
+// Import LoadingScreen from its source
+import { LoadingScreen as LoadingScreenComponent } from "./src/components/Loading/LoadingScreen";
 
-// Views
-export const LoadingScreen = LoadingScreen;
+// Export the imported LoadingScreen
+export const LoadingScreen = LoadingScreenComponent;
