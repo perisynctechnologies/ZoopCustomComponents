@@ -1,0 +1,14 @@
+{
+  "name": "zoop_360_components",
+  "version": "1.0.0",
+  "description": "React project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "18.2.0"
+  },
+  "author": "Yasser",
+  "license": "ISC"
+}
